@@ -9,20 +9,41 @@
 }
 body {
     background-image: url(../img/bg.jpg);
-    width: 100%;
+    opacity: 0.9;
+    background-size: cover;
     z-index: -2;
+    height: 550px;
 }
 #image {
     margin-top: 100px;
 }
 #text p {
-    margin-top: 30px;
+    margin-top: 90px;
     color: azure;
     font-size: 30px;
     text-align: center;
 }
-#button {
+#follow {
     color: darkgoldenrod;
     margin-left: 100px;
+    border: 1px solid darkgoldenrod;
+    border-radius: 10px;
+    border-color: black;
+}
+.white {
+    color: floralwhite;
+}
+#move {
+    margin-top: 80px;
+    color: floralwhite;
+}
+#footer {
+    margin-top: 530px;
+    text-align: center;
     background-color: black;
+    z-index: -2;
+    opacity: 0.5;
+}
+#footer p {
+    margin-top: 15px;
 }
